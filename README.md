@@ -1,3 +1,6 @@
+# NOTE:
+**Reason:** We wanna lock screen orientation in portrait mode. But version which we use (2.17.1) can't do that.
+This issue fixed in 3.0.0+ version and require `react-native` version 0.62 and above. So we should use this fork repo until the `react-native` version is updated.
 # react-native-screens
 
 This project aims to expose native navigation container components to React Native. It is not designed to be used as a standalone library but rather as a dependency of a [full-featured navigation library](https://github.com/react-navigation/react-navigation).
